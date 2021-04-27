@@ -2,8 +2,7 @@ package it.ness.poc;
 
 import it.ness.poc.service.FirstService;
 import org.eclipse.microprofile.opentracing.Traced;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.jboss.logging.Logger;
 
 import javax.inject.Inject;
 import javax.ws.rs.GET;
@@ -15,7 +14,7 @@ import javax.ws.rs.core.MediaType;
 @Traced
 public class GreetingResource {
 
-    Logger logger = LoggerFactory.getLogger(getClass());
+    Logger logger = Logger.getLogger(getClass());
 
     @Inject
     FirstService firstService;

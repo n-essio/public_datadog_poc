@@ -1,9 +1,7 @@
 package it.ness.poc.service;
 
-
 import org.eclipse.microprofile.opentracing.Traced;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.jboss.logging.Logger;
 
 import javax.enterprise.context.ApplicationScoped;
 
@@ -11,7 +9,7 @@ import javax.enterprise.context.ApplicationScoped;
 @Traced
 public class SecondService {
 
-    Logger logger = LoggerFactory.getLogger(getClass());
+    Logger logger = Logger.getLogger(getClass());
 
     public String execute() {
         String msg = "second service";
