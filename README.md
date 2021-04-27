@@ -52,7 +52,7 @@ dd.trace.header.tags=tag1:test,tag2:poc
 
 ```
 
-- add some annotations in the services
+- add @Traced annotation in the services
 
 ```
 @ApplicationScoped
@@ -113,4 +113,9 @@ exec java -Dquarkus.http.host=0.0.0.0 -Djava.util.logging.manager=org.jboss.logm
 ```
 
 - now enjoy!
+
+- more info:
+  - https://quarkus.io/guides/opentracing 
+  - https://docs.datadoghq.com/tracing/setup_overview/setup/java/?tab=containers#configuration
+  - https://docs.datadoghq.com/tracing/setup_overview/open_standards/
 
