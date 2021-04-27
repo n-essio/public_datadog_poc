@@ -2,7 +2,7 @@
 
 Poc using quarkiverse-datadog-tracing extensions.
 
-## STEPS
+## preparatory steps
 
 - add in pom.xml some dependencies
 
