@@ -1,4 +1,4 @@
-# public_datadog_poc project
+# Datadog Quarkus POC project
 
 Poc using quarkiverse-datadog-tracing extensions.
 
