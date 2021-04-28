@@ -40,6 +40,7 @@
             <groupId>io.quarkus</groupId>
             <artifactId>quarkus-resteasy</artifactId>
         </dependency>
+
         <dependency>
             <groupId>org.kij.quarkiverse.datadog</groupId>
             <artifactId>quarkus-datadog-tracer</artifactId>
